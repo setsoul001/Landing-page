@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid black;
+   /* outline: 1px solid black;*/
     padding: 0;
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -26,6 +26,7 @@
     border-radius: 20%;
     background-color: #0C0032;
     overflow: hidden;
+    min-width: 50px;
 }
 
 nav{
@@ -34,7 +35,7 @@ nav{
     align-items: center;
     gap: 55px;
     font-size: 20px;
-    color:lightgrey;
+    color:aqua;
 }
 .b{
     display: flex;
@@ -46,12 +47,13 @@ nav{
     color:#0C0032;
     align-items: center;
     flex-wrap: wrap;
+    min-width: 400px;
 }
 .b1{
     display: flex;
     flex-direction: column;
-    min-width: 350px;
-    width: 550px;
+    min-width: 375px;
+    width: 45%;
     gap: 20px;
 }
 .b1 h1{
@@ -61,26 +63,27 @@ nav{
     font-size: 20px;
 }
 .b2{
-    min-width: 350px;
-    width: 550px;
+    min-width: 375px;
+    width: 40%;
     height: 400px;
 }
 .b2 img{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    min-width: 350px;
+    min-width: 335px;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5%;
 }
 .btn-b{
-    width: 35%;
+    width: 150px;
+    height: 50px;
     font-size: 18px;
     font-weight: 400;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    color:lightgrey;
+    color:aqua;
     background-color: #0C0032;
 }
 .c{
@@ -91,7 +94,8 @@ nav{
     align-items: center;
     justify-content: center;
     gap:50px;
-    min-height: 65vh;
+    min-width: 400px;
+    
 }
 .c1{
     font-size: 45px;
@@ -118,6 +122,7 @@ nav{
 }
 .h{
     font-size: 45px;
+    color: ;
 }
 .card-p{
     font-size: 20px;
@@ -131,6 +136,7 @@ nav{
     flex-direction: column;
     flex: 1;
     justify-content: center;
+    min-width: 400px;
 }
 .d div {
     display: flex;
@@ -186,4 +192,55 @@ nav{
 }
 button{
     font-size: 15px;
+}
+.f{
+    display: flex;
+    padding: 70px 100px;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+}
+.f1{
+    background-color: #0C0032;
+    padding: 70px 50px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    flex: 1;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 10px;
+}
+.f12{
+    min-width: 30%;
+    flex-basis: 10%;
+    align-items: center;
+    vertical-align: middle;
+}
+.f11{
+    display: flex;
+    flex-direction: column;
+    min-width: 65%;
+    gap: 20px;
+}
+.f12 button{
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: middle;
+    width: 150px;
+    height: 50px;
+    min-width: 70%;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    background-color:#0C0032;
+    color: aqua;
+
+}
+.f11 h2{
+    font-size: 35px;
+    color: lightgrey;
+}
+.f11 p{
+    font-size: 25px;
+    color:white;
 }
